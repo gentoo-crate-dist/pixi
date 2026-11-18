@@ -3,6 +3,7 @@ on:
   schedule:
     - cron: "14 */8 * * *"
   push:
+  workflow_dispatch:
 
 jobs:
   sync-mirror:
